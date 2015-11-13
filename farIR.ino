@@ -1,9 +1,8 @@
 
 #include "multiCameraIrControl.h"
-int ledPin = 13;   // LED 连接到数字端口13
+
 int sensor = 10;    //传感器连接到数字端口2
 //红外热释电运动传感器发出高电平，则被触发
-//发出低电平，则其处于休眠状态
 int val = 0; //存储传感器输出的数字量
 Nikon D5000(13);
 void setup()
